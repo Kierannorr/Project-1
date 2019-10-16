@@ -1,4 +1,31 @@
  @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
  body {
    font-family:"Josefin Sans",sans-serif;
+   background-image:url(http://linkbio.co/wp-content/uploads/2019/05/simple-geometric-patterns-black-and-white-designs-cool-black-and-white-design-simple-simple-black-and-white-design-background.jpg);
+   background-size:100%;
+   background-attacment:fixed;
+ }
+  .row-2 {
+   font-size:3em;
+   display:inline-block;
+   width:100%;
+   height:7vh;
+ }
+a {
+   text-decoration:none;
+   text-align:center;
+   -webkit-transition:all 0.5s;
+   color:white;
+   background-color:black;
+   height:100%;
+   padding:20px;
+   width:20%;
+   float:left;
+ }
+ a:hover {
+   color:black;
+   background-color:white;
+ }
+ .spacer {
+   width:20%;
  }
