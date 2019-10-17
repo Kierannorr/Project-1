@@ -1,6 +1,9 @@
  @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
  body {
    font-family:"Josefin Sans",sans-serif;
+ }
+ .mainpage {
+   height:100%;
    background-image:url(http://linkbio.co/wp-content/uploads/2019/05/simple-geometric-patterns-black-and-white-designs-cool-black-and-white-design-simple-simple-black-and-white-design-background.jpg);
    background-size:100%;
    background-attacment:fixed;
@@ -25,7 +28,12 @@ a {
  a:hover {
    color:black;
    background-color:white;
- }
+    }
  .spacer {
    width:20%;
+ }
+ .doc {
+   text-align:center;
+   width:100%;
+   height:100%;
  }
